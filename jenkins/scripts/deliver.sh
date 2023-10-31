@@ -26,4 +26,4 @@ echo "NAME: $NAME"
 echo "VERSION: $VERSION"
 
 set -x
-java -jar target/${NAME}-${VERSION}.jar
+java -jar "target/${NAME}-${VERSION}.jar"
